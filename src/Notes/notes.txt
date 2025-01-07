@@ -1,0 +1,19 @@
+ <div className='w-1/2 m-auto mt-10'>
+      <h1 className='text-red-200 text-5xl mb-2'>User Detail</h1>
+      <h1 className='text-3xl mb-2'>User Username</h1>
+      <p className='mb-2 text-zinc-500'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, quos voluptate voluptatem nesciunt dolore labore sit hic modi veniam corporis fugiat qui quisquam, accusantium nemo saepe explicabo nisi quasi expedita nostrum aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt recusandae nobis magni architecto veritatis facilis voluptas, eum, maxime reprehenderit voluptate in vero non tenetur ab nam nisi quo perferendis labore quasi id?</p>
+      <button className='text-white p-3 bg-sky-500 rounded-md'>Go Back</button>
+    </div>
+
+    ///////////////userdetail data////////////
+
+
+
+      <div className='flex w-1/2 flex-col mt-5'>
+        <Link className='p-3 bg-red-200 text-xl mb-3 hover:bg-red-400' to="/user/divya">Divya</Link>
+        <Link className='p-3 bg-red-200 text-xl mb-3 hover:bg-red-400' to="/user/priya">Priya</Link>
+        <Link className='p-3 bg-red-200 text-xl mb-3 hover:bg-red-400' to="/user/harry">Harry</Link>
+      </div>
+
+
+      ///////////Users.jsx//////////
