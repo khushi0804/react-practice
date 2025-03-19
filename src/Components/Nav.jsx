@@ -16,7 +16,7 @@ function Nav() {
               }
             }}
           >
-         
+
             Home
           </NavLink>
           <NavLink
@@ -36,6 +36,18 @@ function Nav() {
             className="text-lg font-medium"
           >
             Products
+          </NavLink>
+          <NavLink
+            to="/show"
+            className="text-lg font-medium"
+          >
+            Show
+          </NavLink>
+          <NavLink
+            to="/pizza"
+            className="text-lg font-medium"
+          >
+            Pizza
           </NavLink>
         </div>
       </nav>

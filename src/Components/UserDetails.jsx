@@ -3,13 +3,13 @@ import { useNavigate, useParams } from 'react-router-dom'
 import userImages from '../Data/userImages'
 
 function UserDetails() {
- const {name} = useParams()
- const  navigate = useNavigate()
+  const { name } = useParams()
+  const navigate = useNavigate()
 
- const goBackHandle = ()=>{
-navigate('/User')
- }
- const userImage = userImages[name] 
+  const goBackHandle = () => {
+    navigate('/User')
+  }
+  const userImage = userImages[name]
 
 
   return (
